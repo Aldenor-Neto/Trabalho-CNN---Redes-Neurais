@@ -1,0 +1,53 @@
+Console MNIST e CIFAR-10
+
+Treinando para configuração: {'dataset': 'MNIST', 'in_channels': 1, 'image_size': 28, 'num_conv_layers': 2, 'num_filters': 32}
+Epoch 1, Loss: 0.18385019775198053
+Epoch 1, Loss: 0.18385019775198053
+Epoch 3, Loss: 0.04237998684973462
+Epoch 4, Loss: 0.03360821752620837
+Epoch 5, Loss: 0.0268727101288229
+Epoch 6, Loss: 0.02274255602367854
+Epoch 7, Loss: 0.02003783580401312
+Epoch 8, Loss: 0.01617412261975236
+Epoch 9, Loss: 0.015333169517076901
+Epoch 10, Loss: 0.011384926420859066
+Accuracy: 99.03
+
+Treinando para configuração: {'dataset': 'MNIST', 'in_channels': 1, 'image_size': 28, 'num_conv_layers': 3, 'num_filters': 64}        
+Epoch 1, Loss: 0.16302646061768933
+Epoch 2, Loss: 0.04359750169987626
+Epoch 3, Loss: 0.03021662253295697
+Epoch 4, Loss: 0.025957261116170922
+Epoch 5, Loss: 0.019692639852205027
+Epoch 6, Loss: 0.016182063290179474
+Epoch 7, Loss: 0.015216261316234169
+Epoch 8, Loss: 0.012127258742448674
+Epoch 9, Loss: 0.011224669979324382
+Epoch 10, Loss: 0.008749728613191794
+Accuracy: 99.24
+
+Treinando para configuração: {'dataset': 'CIFAR10', 'in_channels': 3, 'image_size': 32, 'num_conv_layers': 2, 'num_filters': 32}      
+Epoch 1, Loss: 1.4181570801741021
+Epoch 2, Loss: 1.0829536960557904
+Epoch 3, Loss: 0.9626900797990887
+Epoch 4, Loss: 0.8980992000045069
+Epoch 5, Loss: 0.847045872522437
+Epoch 6, Loss: 0.8098347007542315
+Epoch 7, Loss: 0.7793136276781102
+Epoch 8, Loss: 0.7537860756411272
+Epoch 9, Loss: 0.7287581711245315
+Epoch 10, Loss: 0.7095023627628756
+Accuracy: 69.88
+
+Treinando para configuração: {'dataset': 'CIFAR10', 'in_channels': 3, 'image_size': 32, 'num_conv_layers': 3, 'num_filters': 64}      
+Epoch 1, Loss: 1.3795875501449761
+Epoch 2, Loss: 0.9711265486219655
+Epoch 3, Loss: 0.8173393317119545
+Epoch 4, Loss: 0.7201290439690471
+Epoch 5, Loss: 0.6524606653491555
+Epoch 6, Loss: 0.5921993656917606
+Epoch 7, Loss: 0.5457428269221655
+Epoch 8, Loss: 0.5032934140595023
+Epoch 9, Loss: 0.45982771900380054
+Epoch 10, Loss: 0.4279571445206242
+Accuracy: 75.04
