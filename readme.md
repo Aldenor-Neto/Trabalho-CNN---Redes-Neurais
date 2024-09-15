@@ -1,3 +1,12 @@
+# IFCE Campus Maracanaú
+
+**Disciplina:** Redes Neurais Artificiais (RNA)  
+**Professor:** Amauri Holanda de Souza  
+**Aluno:** Francisco Aldenor Silva Neto  
+**Matrícula:** 20221045050117
+
+---
+
 # Relatório de Experimento com Redes Neurais Convolucionais
 
 ## Introdução
@@ -58,7 +67,7 @@ Os resultados foram obtidos após o treinamento de 10 épocas para cada configur
 - **Perda ao final da época 10**: 0.0114
 - **Acurácia**: 99.03%
 
-![Curva de Perda - MNIST com 32 Filtros](Imagens/Loss%20Curve%20-%20MNIST%20-%20Filters%2032.png)
+![Curva de Perda - MNIST com 32 Filtros](Imagens/Loss%20Curve%20-%20MNIST%20-%20Filters%2032.jpg)
 
 #### Resultados por época:
 ```
@@ -79,7 +88,7 @@ Os resultados foram obtidos após o treinamento de 10 épocas para cada configur
 - **Perda ao final da época 10**: 0.0087
 - **Acurácia**: 99.24%
 
-![Curva de Perda - MNIST com 64 Filtros](Imagens/Loss%20Curve%20-%20MNIST%20-%20Filters%2064.png)
+![Curva de Perda - MNIST com 64 Filtros](Imagens/Loss%20Curve%20-%20MNIST%20-%20Filters%2064.jpg)
 
 #### Resultados por época:
 ```
@@ -100,7 +109,7 @@ Os resultados foram obtidos após o treinamento de 10 épocas para cada configur
 - **Perda ao final da época 10**: 0.7095
 - **Acurácia**: 69.88%
 
-![Curva de Perda - CIFAR-10 com 32 Filtros](Imagens/Loss%20Curve%20-%20CIFAR10%20-%20Filters%2032.png)
+![Curva de Perda - CIFAR-10 com 32 Filtros](Imagens/Loss%20Curve%20-%20CIFAR10%20-%20Filters%2032.jpg)
 
 #### Resultados por época:
 ```
@@ -121,7 +130,7 @@ Os resultados foram obtidos após o treinamento de 10 épocas para cada configur
 - **Perda ao final da época 10**: 0.4279
 - **Acurácia**: 75.04%
 
-![Curva de Perda - CIFAR-10 com 64 Filtros](Imagens/Loss%20Curve%20-%20CIFAR10%20-%20Filters%2064.png)
+![Curva de Perda - CIFAR-10 com 64 Filtros](Imagens/Loss%20Curve%20-%20CIFAR10%20-%20Filters%2064.jpg)
 
 #### Resultados por época:
 ```
@@ -141,7 +150,7 @@ Os resultados foram obtidos após o treinamento de 10 épocas para cada configur
 
 Para uma melhor comparação entre as diferentes configurações, foi gerado um gráfico combinando as curvas de perda para todas as configurações testadas.
 
-![Curva de Perda Combinada](Imagens/Combined%20Loss%20Curves.png)
+![Curva de Perda Combinada](Imagens/Combined%20Loss%20Curves.jpg)
 
 ## Discussão
 
@@ -155,3 +164,6 @@ Esses resultados indicam que redes mais profundas e com mais filtros tendem a of
 
 Este experimento comparou o desempenho de diferentes arquiteturas de Redes Neurais Convolucionais em dois datasets populares: MNIST e CIFAR-10. Os resultados confirmam que, para problemas mais complexos como o CIFAR-10, o aumento da profundidade da rede e do número de filtros melhora a acurácia. Já para datasets mais simples como o MNIST, essas modificações trazem melhorias mais discretas.
 
+## Referências
+
+Repositório do projeto no GitHub: [GitHub Repository](https://github.com/Aldenor-Neto/Trabalho-CNN---Redes-Neurais)
